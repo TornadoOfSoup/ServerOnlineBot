@@ -2,7 +2,7 @@ import me.dilley.MineStat;
 import org.javacord.api.DiscordApi;
 import org.javacord.api.DiscordApiBuilder;
 
-public class main {
+public class Main {
 
     public static void main(String[] args) {
         String token = "ODk5NDMxODE1NTQxMDU1NTA4.YWyrJw.ZlvJMSBJK7uDcMwD80cKO9LsX4c";
