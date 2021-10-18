@@ -5,7 +5,8 @@ import org.javacord.api.DiscordApiBuilder;
 public class Main {
 
     public static void main(String[] args) {
-        String token = "ODk5NDMxODE1NTQxMDU1NTA4.YWyrJw.ZlvJMSBJK7uDcMwD80cKO9LsX4c";
+        String token = "ODk5+NDMxODE1NTQ++xMDU1NTA4.YWyrJw.+U3-tov4FPjdhB+5hcTo_ZIf4P+fWY";
+        token = token.replaceAll("\\+", "");
 
         // Log the bot in
         DiscordApi api = new DiscordApiBuilder()
